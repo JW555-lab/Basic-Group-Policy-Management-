@@ -5,7 +5,7 @@ In this project, I extended my existing Active Directory lab by creating and dep
 
 Actions and Observations:
 
-This project builds on my existing joellab.local domain from the AD-Home-Lab project. Before I could apply a policy to Client01, it needed to be joined to the domain, which meant it first had to be pointed at DC1 for DNS resolution, since domain lookups depend on it.
+    This project builds on my existing joellab.local domain from the AD-Home-Lab project. Before I could apply a policy to Client01, it needed to be joined to the domain, which meant it first had to be pointed at DC1 for DNS resolution, since domain lookups depend on it.
 
 
 1. I set Client01's DNS server to DC1's address and confirmed it with ipconfig /all. This shows the DNS Server correctly set to 192.168.10.1 alongside the client's own static IP.
