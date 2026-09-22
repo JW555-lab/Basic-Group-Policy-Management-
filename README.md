@@ -1,4 +1,4 @@
-# Basic-Group-Policy-Management-
+# Basic Group Policy Management
 Group Policy Object creation and deployment in Active Directory - Restricting Control Panel access for a domain OU using PowerShell
 
 In this project, I extended my existing Active Directory lab by creating and deploying a GPO to restrict Control Panel access for users in the sales organizational unit.
